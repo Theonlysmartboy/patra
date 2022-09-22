@@ -1,0 +1,26 @@
+form,
+h1{
+    background-color: green;
+    font-family:verdana, serif;
+    color: #ffff;
+}
+td{
+    border-radius: 5%;
+    border: dotted 1px #f0ff;
+    font-size: 12px;
+}
+.text{
+    background-color: blue;
+}
+#text-field{
+    color: #f0ff;
+}
+.round{
+    width: 200px;
+    height: 200px;
+    border: solid 2px #0ff0ff;
+    background-color: red;
+    border-radius: 50%;
+    padding: auto;
+
+}
