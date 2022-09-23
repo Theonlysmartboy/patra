@@ -1,3 +1,9 @@
 .bg-primary-dark{
     background-color: darkblue ;
 }
+#banner{
+    background: url('../images/car.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
