@@ -7,23 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
-    <div style="background-color: red; padding: auto;" id="greetings">
     </div>
     <script>
-        var myDate = new Date();
-        var hrs = myDate.getHours();
-        var greet;
-        if (hrs < 12) {
-            greet = 'Good Morning';
-        } else if (hrs >= 12 && hrs <= 17) {
-            greet = 'Good Afternoon';
+        //variiable for first number caller num1
+        $num1=2;
+        //variable for second number called num2
+        $num2=4;
+        // variable for qutient assigned the value of the division operation of the two niumbers
+        if($num1 > $num2){
+            $quotient=$num1/$num2;
+        }else{
+            $quotient=$num2/$num1;
         }
-        else if (hrs >= 17 && hrs <= 24) {
-            greet = 'Good Evening';
-        }
-        document.getElementById('greetings').innerHTML = '<b>' + greet + '</b>';
+
+        alert( 'The Quotient of ' + $num1 + " and " +$num2 + ' is' + $quotient);
     </script>
 </body>
 
