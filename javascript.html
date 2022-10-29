@@ -11,17 +11,17 @@
     </div>
     <script>
         //variiable for first number caller num1
-        $num1=2;
+        $num1=3;
         //variable for second number called num2
-        $num2=4;
+        $num2=2;
+        $ans = $num1 % $num2;
         // variable for qutient assigned the value of the division operation of the two niumbers
-        if($num1 > $num2){
-            $quotient=$num1/$num2;
+        if($ans == 0){
+            $quotient="Even";
         }else{
-            $quotient=$num2/$num1;
+            $quotient="Odd";
         }
-
-        alert( 'The Quotient of ' + $num1 + " and " +$num2 + ' is' + $quotient);
+        alert( $num1 + " is an " + $quotient + ' Number');
     </script>
 </body>
 
