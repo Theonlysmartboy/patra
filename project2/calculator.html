@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+        <p class="text-info text-center">Simple Calculator</p>
+        <div class="form-group row">
+            <div class="col-3">
+                <label for="num1" class="form-label">First Number:</label>
+            </div>
+            <div class="col-9"> <input type="number" class="form-control" id="num1" name="num1"
+                    placeholder="Enter The first Number">
+            </div>
+        </div>
+    
+        <div class="form-group row">
+            <div class="col-3">
+                <label for="num2" class="form-label">Second Number:</label>
+            </div>
+            <div class="col-9">
+                <input type="number" class="form-control" id="num2" name="num2" placeholder="Enter The Second Number">
+            </div>
+        </div>
+        <p class="text-info text-center">What do you want to do?</p>
+        <div class="row">
+            <div class="col-2">
+                <button class="btn btn-info" id="add" onclick="add()">+</button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-success" id="subtract" onclick="subtract()">-</button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary" id="multiply" onclick="product()">*</button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-warning" id="divide">/</button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-danger" id="modulate" onclick="modulus()">%</button>
+            </div>
+        </div>
+        <p class="text-info text-center">Here is your answer</p>
+        <div class="form-group row">
+                <div class="col-12">
+                <input type="text" class="form-control" id="answer" name="answer" placeholder="0.00" readonly>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/sum.js"></script>
+    <script src="js/difference.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/modulus.js"></script>
+</body>
+
+</html>
