@@ -38,10 +38,27 @@
                 <button class="btn btn-primary" id="multiply" onclick="product()">*</button>
             </div>
             <div class="col-2">
-                <button class="btn btn-warning" id="divide">/</button>
+                <button class="btn btn-warning" id="divide" onclick="divide()">/</button>
             </div>
             <div class="col-2">
                 <button class="btn btn-danger" id="modulate" onclick="modulus()">%</button>
+            </div>
+        </div>
+        <div class="clear-fix">
+            <br>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <button class="btn btn-info" id="less" onclick="compare()"><</button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-success" id="greater" onclick="compare()">></button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary" id="equal" onclick="compare()">=</button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-warning" id="run" onclick="start()">run</button>
             </div>
         </div>
         <p class="text-info text-center">Here is your answer</p>
@@ -56,5 +73,8 @@
     <script src="js/difference.js"></script>
     <script src="js/product.js"></script>
     <script src="js/modulus.js"></script>
+    <script src="js/quotient.js"></script>
+    <script src="js/compare.js"></script>
+    <script src="js/loops.js"></script>
 </body>
 </html>
